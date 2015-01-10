@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self UILabelInit];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,4 +25,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)UILabelInit{
+    UILabel *label = [[UILabel alloc] init];
+    label.frame = CGRectMake(0, 70, 380, 80);
+    label.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:label];
+}
 @end

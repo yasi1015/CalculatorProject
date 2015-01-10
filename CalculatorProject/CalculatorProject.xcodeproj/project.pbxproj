@@ -14,6 +14,7 @@
 		774BF2051A60FF060035D4B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 774BF2041A60FF060035D4B3 /* Images.xcassets */; };
 		774BF2081A60FF060035D4B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 774BF2061A60FF060035D4B3 /* LaunchScreen.xib */; };
 		774BF2141A60FF060035D4B3 /* CalculatorProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BF2131A60FF060035D4B3 /* CalculatorProjectTests.m */; };
+		77C63EB11A6143EE00E35209 /* LabelInit.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C63EB01A6143EE00E35209 /* LabelInit.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		774BF20D1A60FF060035D4B3 /* CalculatorProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		774BF2121A60FF060035D4B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		774BF2131A60FF060035D4B3 /* CalculatorProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorProjectTests.m; sourceTree = "<group>"; };
+		77C63EB01A6143EE00E35209 /* LabelInit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelInit.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				774BF2041A60FF060035D4B3 /* Images.xcassets */,
 				774BF2061A60FF060035D4B3 /* LaunchScreen.xib */,
 				774BF1F71A60FF060035D4B3 /* Supporting Files */,
+				77C63EB01A6143EE00E35209 /* LabelInit.xib */,
 			);
 			path = CalculatorProject;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				774BF2031A60FF060035D4B3 /* Main.storyboard in Resources */,
 				774BF2081A60FF060035D4B3 /* LaunchScreen.xib in Resources */,
+				77C63EB11A6143EE00E35209 /* LabelInit.xib in Resources */,
 				774BF2051A60FF060035D4B3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +418,7 @@
 				774BF2191A60FF060035D4B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		774BF21A1A60FF060035D4B3 /* Build configuration list for PBXNativeTarget "CalculatorProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				774BF21C1A60FF060035D4B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
